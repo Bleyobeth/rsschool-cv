@@ -1,4 +1,6 @@
 # Kirill Kotenko
+![](https://vsegda-pomnim.com/uploads/posts/2022-04/1650889824_8-vsegda-pomnim-com-p-lizhnik-v-gorakh-foto-11.jpg)
+
 * [Telegram](https://t.me/vindyt) 
 * [Discord](https://discordapp.com/users/727809340182102068)
 * [E-mail](taligynn@gmail.com)
