@@ -26,4 +26,4 @@ Courses in web application development using React.js, React - The Complete Guid
 I am proficient in English at the Intermediate level. I have also had experience with language practice while studying, including reading technical literature and communicating with peers in English.</p>
 
 ### CodewarsBadge
-![image](https://www.codewars.com/users/natarit/badges/large)
+![Codewars](https://github.r2v.ch/codewars?user=dudandizj&stroke=COLOR)
