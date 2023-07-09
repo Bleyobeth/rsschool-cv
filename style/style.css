@@ -1,0 +1,243 @@
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.h1 {
+  font-size: 42px;
+  line-height: 44px;
+  font-weight: 900;
+}
+.h2 {
+  font-size: 36px;
+  line-height: 24px;
+  font-weight: 900;
+  color: #bdbdbd;
+  margin-bottom: 20px;
+}
+.h3 {
+  font-size: 28px;
+  line-height: 22px;
+  font-weight: 800;
+  color: #1c1c1c;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+.year {
+  font-size: 42px;
+  line-height: 44px;
+  font-weight: 900;
+}
+.link {
+  font-size: 22px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000090;
+}
+.text {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 400;
+  color: #1c1c1c;
+}
+.text-pre {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #1c1c1c;
+  background-color: darkgray;
+  padding-top: 20px;
+}
+.bold {
+  font-weight: 700;
+}
+.color-bd {
+  color: #bdbdbd;
+}
+
+/* HEADER */
+
+.header {
+  margin-top: 48px;
+  margin-bottom: 100px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.hero {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+.links {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about,
+.skills,
+.code-exp,
+.education,
+.english,
+.projects {
+  width: 500px;
+}
+
+.dfsb {
+  display: flex;
+  justify-content: center;
+}
+
+.first__wrap,
+.second__wrap {
+  margin-bottom: 70px;
+}
+
+.list {
+  margin-left: 24px;
+}
+
+.footer {
+  margin-top: 130px;
+  margin-bottom: 80px;
+}
+
+.git-img {
+  width: 64px;
+}
+
+.rs-img {
+  width: 173px;
+}
+
+.foot-wr {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Adaptive */
+
+@media (max-width: 768px) {
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+  .hero {
+    text-align: center;
+    width: 50%;
+  }
+  .links {
+    text-align: center;
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .hero {
+    text-align: center;
+    width: 50%;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .links {
+    text-align: center;
+    width: 50%;
+  }
+  .main .container .dfsb {
+    align-items: center;
+    flex-direction: column;
+  }
+  .header__wrapper {
+    align-items: center;
+    flex-direction: column;
+  }
+  .about,
+  .skills,
+  .english {
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .foot-wr {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .foot-wr a {
+    margin-top: 40px;
+  }
+  .about,
+  .skills,
+  .code-exp,
+  .education,
+  .english,
+  .projects {
+    width: 400px;
+  }
+  .links,
+  .hero {
+    width: 300px;
+  }
+}
+
+@media (max-width: 440px) {
+  .container {
+    width: 300px;
+  }
+  .about,
+  .skills,
+  .code-exp,
+  .education,
+  .english,
+  .projects {
+    width: 300px;
+  }
+}
+
+nav {
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  display: flex;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #ddd;
+}
